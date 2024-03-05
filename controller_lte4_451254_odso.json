@@ -1,0 +1,74 @@
+class MyClass { constructor() { this.property = getRandomString(); } }
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+99,73,47,40,69,57,96,70,76,74,32,85,13,99,79,52,97,80,46,43,58,37,21,98,70,25,87,41,11,47,52,8,4,6,30,33,78,88,14,29,54,56,65,24,39,98,82,6,84,66,77,37,29,13,14,3,23,13,33,49,97,85,86,33,6,52,72,80,79,42,24,49,28,24,65,93,22,12,27,37,2,5,3,36,21,34,81,84 + grape
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+function addNumbers(a, b) { return a + b; }
+const findSmallestNumber = numbers => Math.min(...numbers);
+86,29,21,90,81,99,10,96,71,36,98,12,76,15,8,3,32,63,0,62,10,28,63,55,13,51,91,77,33,0,52,23,66,79,88,52,68,11,49,91,39,5,2,47,89,16,82,28,62,89,3,60,16,73,67,66 / 5
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+true / 96
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+80,36,50,1,88,65,69,90,73,77,28,97,60,51,51,30,21,25,53,89,77,41,53,13,65,2,73,63,53,15,82,56,37,29,79,30,35,85,46,64,46,15,13,51,48,42,23,45,25,83,80,45,0,23,58,96,46,98,76,47,75,12,72,4,18,65,58 / apple
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const greet = name => `Hello, ${name}!`;
+const randomNumber = getRandomNumber();
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+kiwi
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+10 + true
+const getRandomElement = array => array[getRandomIndex(array)];
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+false + 44,62,44,58,72,62,99,65,47,54,65,93,8,90,71,35,51,21,34,59,48,61,7,57,30
+const getRandomElement = array => array[getRandomIndex(array)];
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+true * 10,61,12,39,99,85,23,59,63,29,20,79,72,3,84,35,46,83,94,23,98,59,89,74,63,59,23,67,44,56,47,26,96,42,51,23,62,39,44,43,35,94,34,42,28,43,84,47,15,34,89,99,72,72,47,96,78,82,4,41,86,10,53,27,6,58,35,72,88,73,85,79,74,1,52,12,5,90,22,25,58
+
+const getRandomElement = array => array[getRandomIndex(array)];
+apple
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const greet = name => `Hello, ${name}!`;
+
+const getRandomElement = array => array[getRandomIndex(array)];
+false + apple
+const greet = name => `Hello, ${name}!`;
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const greet = name => `Hello, ${name}!`;
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+true - 84
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+kiwi + 95
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+orange - true
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+62 * 58
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const formatDate = date => new Date(date).toLocaleDateString();
+banana
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+banana
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);

@@ -1,0 +1,66 @@
+banana
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+orange
+
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+orange
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+console.log(getRandomString());
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+52 + 2
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+53 / 66,55,49,57,32,6,85,94,65,45,42,4,70,72,30,35,84,40,34,31,65,62,73,69,91,48,70,10,15,21,53,80,47,57,41,66,49,35,56,23,21,47,90,48,52,6,73,7,3,93,34,97,92,60,54,40,36,25,95,84,14,27,66,85,93,47,50,81,29,21,95,55,40,45,63,89
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+79 + true
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+banana + true
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+75,20,43,81,73,87,69,4,75,23,23,89,64,18,59,79,32,84,51,3,28,92,96,61,44,67,1,46,64,5,72,74,35,99,97,95,49,25,83,13,42,3,63,99,35,13,2,98,20,41,63,82,47,65,68,5,30,94,17,51,38,56,93,94,4,23,14,71,31,16,78,58,21,92,2,83,80,47,15,73,72,54,65,43,84 * true
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const squareRoot = num => Math.sqrt(num);
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+kiwi + 32
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+83 * false
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+function addNumbers(a, b) { return a + b; }
+43 / 80,50,68,51,4,26,91,19,33,4,38,41,4,35,14,14,32,35,54,62,76,46,89,8,97,73,17,38,83,76,27,46,26,90,34,4,31,95,93,18,76,85,86,36
+const removeDuplicates = array => Array.from(new Set(array));
+const findSmallestNumber = numbers => Math.min(...numbers);
+79,62,50,73,79,5,79,95,77,71,37,20,26,46,50,8,7,19,1,64,51,24,52,68,81,80,24,95,40,60,45,10,45,3,92,41,62,58,10,41,99,87,21,98,58,50 / false
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+
+const reverseString = str => str.split("").reverse().join("");
+banana + banana
+
+const sum = (a, b) => a + b;
+
+kiwi
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+grape
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+const isEven = num => num % 2 === 0;

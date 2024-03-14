@@ -1,0 +1,36 @@
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+91,96,4,15,50,68,33,18,50,14,19,55,75 / orange
+const sum = (a, b) => a + b;
+const getUniqueValues = array => [...new Set(array)];
+24 / kiwi
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+true + false
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+console.log(getRandomString());
+76 * 39
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const variableName = getRandomNumber();
+apple
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+23 * 11,82,32,24,21,87,7,70,92,86,86,13,52,36,40,23,66,91,48,45,81,62,55,2,54,1,3,20,78,86,28,18,91,7,46,85,38,22,61,29,64,75,10,93,38,35,6,39,15,59,22,8
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const findLargestNumber = numbers => Math.max(...numbers);
+apple
+
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+53,70,96,76,34,86,17,32,12,66,1,57,42,14,24,67,62,49,89,95,8,66,67,20,84,45,95,65,33,17,91,12,26,53,63,58,17,69,74,53,6,85,41,71,27,2,23,16 * 90,36,42,91,78,1,8,62,78,63,30,72,22,86,75,92,91,89,88,54,38,51,34,46,28,67,58,8,10,28,79,41,84,30,96,41,53,45,80,83,86,9,92,51,65,91,16,94,68,27,24,32,74
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const removeDuplicates = array => Array.from(new Set(array));
+
+const randomNumber = getRandomNumber();
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }

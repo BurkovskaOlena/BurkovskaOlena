@@ -1,0 +1,65 @@
+83 - 6,44,58,41,25,46,77,24,57,34,3,66,11,52,76,26,76,10,48,96,25,61,91,85,70,74
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+const removeDuplicates = array => Array.from(new Set(array));
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+// This is a comment
+false / 49
+const findLargestNumber = numbers => Math.max(...numbers);
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+apple * true
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+96 * 44,45,77,81
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
+orange
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+function addNumbers(a, b) { return a + b; }
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+97,68,4,62,83,14,80,54,80,75,87,19,25,71,49,99,77,90,98,24,38,50,71,72,39,47,41,9,22,30,92,58,14,89,86,30,61,43,98,21,14,27,14,95,44,88,91,37,35,30,94,21,26,51,52,27,69,85 / 31,10,68,48,37,42,29,16,66,32,50,28,8,30,68,70,77,67,1,72,92,7,77,45,87,13,5,86,66,4,24,59,49,37,41,80,98,34,76,15,15,26,83,46,73,15,96,5,20,69,74,73,69,47,60,40,52,21,44,4,42,58,14,54,57,85,16,54,99,98,36,53,41,52,57,94,50,21,40,68,64,83,57,46,36,96,39,57,19,53,56,49,39,63,92,17,20,38,19
+const sum = (a, b) => a + b;
+apple
+
+const squareRoot = num => Math.sqrt(num);
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+banana
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+93 * kiwi
+const formatDate = date => new Date(date).toLocaleDateString();
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+grape
+
+const isEven = num => num % 2 === 0;
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
+const isEven = num => num % 2 === 0;
+
+apple
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;

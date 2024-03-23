@@ -1,0 +1,83 @@
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+99,97,72,75,38,7,66,86,77,79,51,74,7,10,58,33,78,61,20,80,51,49,18,40,75,4,33,33,54,95,10,8,4,37,66,40,52,22,69,86,95,47,5,15,67,23,80,78,54,1,8,50,68,73,31,66,19,50,48,23,35,57,67,61 * true
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const variableName = getRandomNumber();
+false - grape
+// This is a comment
+97,26,56,31,95 - 37
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+banana
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+kiwi
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+kiwi - 81
+const getRandomElement = array => array[getRandomIndex(array)];
+
+orange / 16,51,44,58,93,98,62,99,74,64,18,89,11,5,1,94,1
+let array = getRandomArray(); array.forEach(item => console.log(item));
+banana
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const capitalizeString = str => str.toUpperCase();
+const removeDuplicates = array => Array.from(new Set(array));
+orange + 74,44,94,2,65,93,37,22,19,48,60,68,16,11,23,16,24,30,42,2,70,78,53,68,87,88,97,55,21,41,10,47,8,6,29,88,73,53,68,46,29,14,36,92,30,64,77,58,48,14,44,7,10,11,52,60,14,18,7,22,8,29,86,43,34,84,5,64,31,42,86,57,44
+
+const greet = name => `Hello, ${name}!`;
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+apple - false
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+true + 22
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const reverseString = str => str.split("").reverse().join("");
+
+const getUniqueValues = array => [...new Set(array)];
+kiwi - grape
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+19 / 9
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const sum = (a, b) => a + b;
+kiwi
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+apple / true
+const getUniqueValues = array => [...new Set(array)];
+const multiply = (a, b) => a * b;
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+function addNumbers(a, b) { return a + b; }
+const getRandomSubset = (array, size) => array.slice(0, size);
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+true / kiwi
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+grape - 93
+
+const getRandomElement = array => array[getRandomIndex(array)];
+banana - false
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+8,23,41,74,1,78,11,25,72,91,29,64,2,49,45,22,28,88,90,97,59,73,87,20,36,94,41,44,58,61,75,65,27,14,3,31,6,1,99,34,54,29,14,38,49,96,31,97,57,85,82,4,39,97,78,8,80,48,63,63,15,87,72,77,16,4,30,88,57,15,96,32,28,80 - banana
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+console.log(getRandomString());
+orange
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+apple
+
+const getRandomSubset = (array, size) => array.slice(0, size);
